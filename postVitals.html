@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>
-      Data Is More than Numbers~com.abtinbidgoli~UX/UI Developer Ponderings
+      Page Experience & Core Web Vitals~com.abtinbidgoli~UX/UI Developer Ponderings
     </title>
 
     <meta
@@ -27,7 +27,10 @@
     <!-- website name -->
     <meta property="og:site" content="https://abtinbidgoli.com" />
     <!-- website link -->
-    <meta property="og:title" content="Data Is More than Numbers" />
+    <meta
+      property="og:title"
+      content="Page Experience & Core Web Vitals"
+    />
     <!-- title shown in the actual shared post -->
     <meta
       property="og:description"
@@ -86,20 +89,15 @@
     <link rel="stylesheet" type="text/css" href="css/color-default.css" />
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
+    
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-JPG2DHZPD6"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JPG2DHZPD6"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-JPG2DHZPD6");
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-JPG2DHZPD6');
     </script>
   </head>
 
@@ -128,9 +126,17 @@
             <div class="row">
               <div class="col-md-8">
                 <div class="post">
+                  <!--
+                  <div class="media">
+                    <video playsinline autoplay loop muted id="Tehran" alt="com.abtinbidgoli ~ UX/UI Developer"
+                    class="img-rounded" width="100%" height="100%" lazy>
+                      <source src="img/tangeVashi.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                -->
                   <div class="media">
                     <img
-                      src="img/ABcanonT80Sunset.JPG"
+                      src="img/Chrome - Copy@1-1680x1027.jpg"
                       alt="com.abtinbidgoli ~ UX/UI Developer"
                       class="img-rounded"
                     />
@@ -138,7 +144,9 @@
 
                   <div class="content">
                     <h4>
-                      <a href="#"> Data Is More than Numbers </a>
+                      <a href="#">
+                        Page Experience & Core Web Vitals                      
+                      </a>
                     </h4>
 
                     <ul class="post-icons">
@@ -149,366 +157,230 @@
 
                       <li>
                         <i class="ion-ios-clock-outline"></i>
-                        <span>2 January 2022</span>
+                        <span>2 October 2023</span>
                       </li>
 
                       <li>
                         <i class="ion-ios-lightbulb-outline"></i>
-                        <span>7 minute read</span>
+                        <span>4 minute read</span>
                       </li>
                     </ul>
                     <p>
-                      Low-code platforms & other end-user programming or
-                      simplified implementation don't remove the need for task
-                      analysis & other deeper UX work & thus don't guarantee
-                      great usability. But they can free up budget for better UX
-                      work.
+                      The Speed Report in the Google Search Console (recently renamed “<i>Core Web Vitals</i>”) is offering two new performance metrics: Cumulative Layout Shift & Largest Contentful Paint additionally to the First Input Delay. Core Web Vitals have also been deployed in tools such as Page Speed Insights or Lighthouse.
                     </p>
-                    <p>
-                      Systematically gathered qualitative data is a dependable
-                      method of understanding what users need, why problems
-                      occur, & how to solve them. “Not everything that can be
-                      counted counts, & not everything that counts can be
-                      counted.” ~ (Attributed to) Albert Einstein
-                    </p>
-                    <h3>Qualitative Data Isn’t Just Opinions</h3>
-                    <p>
-                      A fairly common objection to qualitative UX research
-                      (especially from statistically literate audiences) is that
-                      small sample sizes result in anecdotal evidence or a few
-                      people’s subjective assessments, rather than data proper.
-                      Many UXers that work in domains such as healthcare,
-                      natural science, or even just “data-driven” organizations
-                      may find that it is difficult to build buy-in to conduct
-                      small-n research in the first place; even if they are able
-                      to do the testing, it’s often hard to build credibility
-                      about the recommendations that result from the findings.
-                    </p>
-                    <p>Common objections include:</p>
-                    <ol>
-                      <li>
-                        Comparisons between design options in studies with 5 or
-                        10 users aren’t statistically significant (which is
-                        true)
-                      </li>
+                      <p>
+                        Google recently announced a major change to come: the search engine will release a new Page Experience signal for ranking in 2021, based on Core Web Vitals, with detailed objectives to comply with. Let’s discover about Core Web Vitals and the details of the Google’s announcement.
+                      </p>
+                      <div class="media">
+                        <img
+                          src="img/Airplane - Copy@1-1680x1027.jpg"
+                          alt="com.abtinbidgoli ~ UX/UI Developer"
+                          class="img-rounded"
+                          lazy
+                        />
+                      </div>
                       <br />
-                      <li>
-                        Small sample sizes mean that we cannot confidently
-                        generalize things like time on task or success rates
-                        from a small study (also true)
-                      </li>
+                      <h3>
+                        Google’s focus on UX & Speed
+                      </h3>
+                      <p>
+                        Firstly, let’s talk about the timeline: <a href="https://webmasters.googleblog.com/2020/05/evaluating-page-experience.html" target="_blank">Google’s announcement</a> was published on May 28, 2020. According to Google Webmaster Central Blog, the change will roll out <a href="https://webmasters.googleblog.com/2020/11/timing-for-page-experience.html" target="_blank">on May 2021</a>. 
+                      </p>
+                      <p>
+                        So if your website does not comply yet with the guidelines, the good news is you still have time to optimize your pages. According to <a href="https://developers.google.com/search/docs/guides/page-experience" target="_blank">the documentation about the new “<i>page experience</i>”</a>:
+                      </p>
+                      <blockquote>
+<i>                        Page experience is a set of signals that measure how users perceive the experience of interacting with a web page beyond its pure information value.
+</i>                      </blockquote>
+
+                      <div class="media">
+                        <img
+                          src="img/core-web-vitals-page-experience.png"
+                          alt="com.abtinbidgoli ~ UX/UI Developer"
+                          class="img-rounded"
+                          lazy
+                        />
+                      </div>
                       <br />
-                      <li>
-                        Since we aren’t measuring things, our interpretations
-                        are therefore inherently subjective (indeed a potential
-                        hazard, but one that proper methods & good researchers
-                        account for)
-                      </li>
-                      <br />
-                    </ol>
-                    <p>
-                      While some of these objections are true (& are why we
-                      don’t recommend reporting numbers from qualitative
-                      studies), it’s a big jump to assert that qualitative
-                      research is anecdotal or lacks rigor. It is simply the
-                      case that qualitative research is a rather different mode
-                      of investigation.
-                    </p>
-                    <div class="media">
+                      <p>
+                        HTTPs usage, Mobile Friendly, Interstitials & Safe Browsing were already documented Search signals. The news is more about the introduction of Core Web Vitals.
+                      </p>
+                      <p>
+                        Core Web Vitals is a set of performance metrics that measure real-world user experience for loading performance (LCP: Largest Contentful Paint), interactivity (FID: First Input Delay), & visual stability of the page (CLS: Cumulative Layout Shift).
+                      </p>
+                      <h3>
+                        Largest Contentful Paint (LCP) ~ Loading performance
+                      </h3>
+                      <p>
+                        The Largest Contentful Paint measures the render time of the largest content element visible (within the viewport, so before the user scrolls).
+                      </p>
+                      
+                        <div class="media">
+                          <img
+                            src="img/lcp-google-guidelines-1.png"
+                            alt="com.abtinbidgoli ~ UX/UI Developer"
+                            class="img-rounded"
+                            lazy
+                          />
+                        </div>
+                        <br />
+                        <p>
+                          According to Google guidelines, your web pages should have a LCP under 2.5 seconds, for 75% of your visitors at least (including both desktop & mobile traffic). 
+                        </p>
+                        <h3>
+                          First Input Delay (FID) ~ Interactivity
+                        </h3>
+                        <p>
+                          First Input Delay (FID) is the delay a user experiences when interacting with the page for the first time (example: delay to get a feedback from the page when clicking an element)
+                        </p>
+                        <p>
+                          According to Google guidelines, your web pages should have a FID under 100ms, for 75% of your visitors at least (including both desktop & mobile traffic). 
+                        </p>
+                        
+                      <div class="media">
                       <img
-                        src="img/qualitativeData.gif"
+                        src="img/fid-google-guidelines.png"
                         alt="com.abtinbidgoli ~ UX/UI Developer"
                         class="img-rounded"
                         lazy
                       />
                     </div>
                     <br />
-                    <h3>Qualitative Research Is Rigorous & Systematic</h3>
-                    <p>
-                      Rigor in quantitative research is seen as being comprised
-                      of a few major attributes:
-                    </p>
-                    <ol type="I">
-                      <li>
-                        <b>Validity</b> ~ is the thing we’re measuring a good
-                        representation of the thing we care about? Can our
-                        conclusions generalize beyond this experiment?
-                      </li>
-                      <br />
-                      <li>
-                        <b>Reliability</b> ~ if we repeat the research, will we
-                        get similar results?
-                      </li>
-                      <br />
-                      <li>
-                        <b>Objectivity</b> ~ do we have a way of ensuring that
-                        our observations aren’t clouded by our biases?
-                      </li>
-                      <br />
-                    </ol>
-                    <p>
-                      These characteristics are relatively straightforward for
-                      quantitative research, but are not easy to establish for
-                      most studies with small sample- sizes.
-                    </p>
-                    <p>
-                      Social scientists Yvonna Lincoln & Egon Guba created a
-                      parallel set of characteristics for qualitative research
-                      that have become a standard way of assessing rigor:
-                    </p>
-                    <ol type="A">
-                      <li>
-                        <b>Credibility</b> ~ Did we accurately describe what we
-                        observed?
-                      </li>
-                      <br />
-                      <li>
-                        <b>Transferability</b> ~ Are our conclusions applicable
-                        in other contexts?
-                      </li>
-                      <br />
-                      <li>
-                        <b>Dependability</b> ~ Are our findings consistent &
-                        repeatable?
-                      </li>
-                      <br />
-                      <li>
-                        <b>Confirmability</b> ~ Did we avoid bias in our
-                        analysis?
-                      </li>
-                      <br />
-                    </ol>
-                    <p>
-                      We can satisfy those criteria by being systematic. That is
-                      the factor that makes the data we collect data, not
-                      anecdotes that happen by chance. If the CEO hears from a
-                      friend that the company’s app looks outdated, that’s an
-                      anecdote ~ there wasn’t a systematic process to gather
-                      that observation, it happened by chance & is only one
-                      person’s subjective opinion. If a UX researcher
-                      systematically recruits 5 participants & several of them
-                      struggle to understand the branded terms in the
-                      navigation, that is data.
-                    </p>
                     <h3>
-                      Small Sample Sizes Are Fine, Depending on What You’re
-                      Looking At
+                      Total Blocking Time as an Alternative to FID
                     </h3>
                     <p>
-                      But, you may be saying, What about those small sample
-                      sizes? Don’t they have an inherent sensitivity to
-                      outliers? Maybe a problem you observe is real, but rare &
-                      you might overstate its importance due to a small sample.
+                      By definition, to collect the FID, you need an interaction. So you can’t measure FID without a real user interacting with the page. You can collect the Max Potential FID, that is the maximum theoretical value the FID could have whatever is the moment of the interaction.  
                     </p>
                     <p>
-                      Once again, we can point back to a robust theoretical
-                      framework we have in UX full of evidence-based principles
-                      about how users sense, think, behave, & interact with
-                      technology. If we observe even one person having a problem
-                      that is an exemplar of a known principle, we are able to
-                      be reasonably confident that it is a real problem. Of
-                      course, we still won’t be able to say precisely how many
-                      people will encounter that problem.
-                    </p>
-                    <div class="media">
-                      <img
-                        src="img/onTarget.gif"
-                        alt="com.abtinbidgoli ~ UX/UI Developer"
-                        class="img-rounded"
-                        lazy
-                      />
-                    </div>
-                    <br />
-                    <p>
-                      If the number of people affected by a problem is a real
-                      factor that we need to consider (e.g., if the problem will
-                      be expensive to fix & will take a lot of resources), then
-                      yes, we may need to do some form of quantitative
-                      experiment to figure that out. On the other hand, it is
-                      often cheaper (& more sensible) to simply fix the design
-                      problem without quantifying just how bad it is, if we’ve
-                      identified it early in the design process.
-                    </p>
-                    <p>
-                      That is one of the main reasons we have consistently
-                      recommended small sample size studies, done early (&
-                      repeated with several iterations of a design): they are a
-                      relatively inexpensive way to find & address major
-                      usability issues that we would otherwise learn about from
-                      angry customers if we shipped the product without testing.
-                      It would be a waste of time & resources to confirm a major
-                      flaw in the design with many participants, especially if
-                      we’re working on a fast-moving Agile team.
+                      Synthetic Monitoring tools like Dareboost are collecting Max Potential FID, but to get your exact FID results, you need to collect them on your audience (Search Console & Chrome UX Reports are a good start). Max Potential FID is the worst case scenario.
                     </p>
                     <h3>
-                      Empathy & Humanity Aren’t Easily Counted, but They Count
+                      Cumulative Layout Shift (CLS) ~ Visual Stability
                     </h3>
                     <p>
-                      Last, but definitely not least, qualitative research
-                      allows us to build a real, empathetic understanding of
-                      users as human beings. When we view human interactions
-                      with technology primarily through the lens of metrics such
-                      as engagement, bounce rate, or time on task, we aren’t
-                      very concerned with the users’ well-being. (It might be in
-                      the back of our minds, but certainly not a primary
-                      consideration.) The tech industry is just beginning to
-                      reckon with the ethics of what we do & to realize that how
-                      we design our products has a real impact on the life of
-                      many, many human beings.
+                      CLS measures the total sum of all individual layout shifts that occurs during the entire lifespan of the page (including after the user has started to interact with the page), taking into account the size of the concerned area, & the distance of the shift. Expected Layout Shift (shifts following a user interaction by less than 500ms) are not counted.  
                     </p>
                     <p>
-                      Moderated qualitative research requires that we engage
-                      with other humans (& even unmoderated studies still
-                      involve observing people). We typically need to build some
-                      form of rapport to get participants comfortable with
-                      expressing their inner thought process. We often discover
-                      that they experience the world differently than we do ~ in
-                      ways both small & subtle, & huge & overt. These studies
-                      provide the opportunity to empathize with them.
+                      According to Google guidelines, your web pages should have a CLS under 0.1, for 75% of your visitors at least (including both desktop and mobile traffic). 
                     </p>
-                    <p>
-                      I don’t want to overstate the power of qualitative
-                      research here. It will not automatically generate empathy
-                      for users ~ I’ve certainly witnessed teams laughing while
-                      watching users struggle. Doing qualitative research will
-                      not fix ethical problems baked into a business model.
-                      Qualitative research certainly will not replace the
-                      critical need for just & inclusive hiring practices for
-                      your team, to ensure that decisions are made by people
-                      with a variety of backgrounds & lived experiences.
-                    </p>
-                    <p>
-                      On the other hand, I also don’t want to
-                      <i>undersell</i> the value of the empathy built through
-                      this sort of research ~ for example, simply through
-                      noticing how frustrated one user gets & hearing them
-                      casually questioning if they are stupid because they
-                      couldn’t figure out a confusing design. That
-                      (unfortunately commonplace) reaction tells me that the
-                      problem is real & fixing it needs to be a priority, even
-                      if I don’t have a huge sample size.
-                    </p>
+                    
                     <div class="media">
                       <img
-                        src="img/bullseye.gif"
+                        src="img/cls-google-guidelines.png"
                         alt="com.abtinbidgoli ~ UX/UI Developer"
                         class="img-rounded"
                         lazy
                       />
                     </div>
                     <br />
+                    <h3>
+                      Core Web Vitals replaced Speed Report
+                    </h3>
                     <p>
-                      Qualitative research is rigorous & systematic, but it has
-                      different goals than quantitative measurement. It
-                      illuminates a problem space with data about human
-                      experience ~ expectations, mental models, pain points,
-                      confusions, needs, goals, & preferences. Sample sizes are
-                      typically smaller than for quantitative experiments,
-                      because the goal isn’t to suggest that our sample
-                      participants will represent the whole populations
-                      proportionally; instead, we’re looking to find problems,
-                      identify needs, & improve designs.
+                      The “Speed Report” of the Search Console, now named “Core Web Vitals”, is based on Chrome UX Report (collecting performance & usage data of real Chrome users). 
                     </p>
                     <p>
-                      UX research is a mixed-methods discipline because these
-                      two approaches are complementary: measuring how much &
-                      understanding why can both help us build better products,
-                      which is the main goal of any UX research.
+                      FCP have been abandoned & replaced by CLS & LCP with the Core Web Vitals report release. Another ~ & maybe subtler change: FID value is no more the 95th percentile but the 75th one, thus reflecting the guideline to have 75% of the traffic with a FID under 100ms. 
+                    </p>
+                    <p>
+                      Cumulative Layout Shift was collected (with an “experimental” flag) since May 2019 in the Chrome UX Report. Largest ContentFul Paint has been introduced in September 2019.  
+                    </p>
+                    <p>
+                      Also, we have to point out that FID, LCP & CLS may not be of equal interest in the Page Experience signal. At least, that’s the case from Lighthouse point of view. 
+                    </p>
+                    <p>
+                      For the first time, Google is not only promoting speed & announcing performance as a ranking signal but also defining precise metrics (First Input Delay, Largest Contentful Paint & Cumulative Layout Shift), detailed targets (FID < 100 ms, LCP < 2.5 seconds & CLS < 0.1) & a context/methodology (measured on Chrome on your real audience, at least 75% of your trafic should have a fast experience, whatever is their context ~ mobile or desktop).
                     </p>
                     <blockquote>
-                      “<i
-                        >Good writing does not succeed or fail on the strength
-                        of its ability to persuade. It succeeds or fails on the
-                        strength of its ability to engage you, to make you
-                        think, to give you a glimpse into someone else's head ~
-                        even if in the end you conclude that someone else’s head
-                        is not a place you’d really like to be. I’ve called
-                        these pieces adventures, because that’s what they are
-                        intended to be. Enjoy yourself.</i
-                      >” ~ Curated Excerpt From: Malcolm Gladwell. “What the Dog
-                      Saw: And Other Adventures.” Apple Books.
+                      “<i>I am not a mathematician, but I know this: There are infinite numbers between 0 & 1. There’s .1 & .12 & .112 & an infinite collection of others. Of course, there is a bigger infinite set of numbers between 0 & 2, or between 0 & a million. Some infinities are bigger than other infinities. A writer we used to like taught us that. There are days, many of them, when I resent the size of my unbounded set.</i>”
+
+~ Curated Excerpt From: John Green. “The Fault in Our Stars.” Apple Books. 
                     </blockquote>
                     <p>
                       Curated via
                       <a
-                        href="https://www.nngroup.com/articles/qualitative-rigor/"
+                        href="https://blog.dareboost.com/en/2020/06/core-web-vitals-page-experience/?utm_source=dareboost&utm_medium=referral&utm_campaign=loadingpage"
                         target="_blank"
                         rel="noopener noreferrer"
-                        >Nielsen Norman Group</a
-                      >. Thanks for reading, cheers! (with a glass of wine &
-                      book of course)
+                        >Dareboost by Contentsquare</a
+                      >. Thanks for reading, cheers! (with a glass of wine & book of
+                      course)
                     </p>
 
                     <div class="media">
                       <img
-                        src="img/2018 Vaudoisey Creusefond Auxey Duresses.png"
+                        src="img/2018 Chat Cheval Des Andes.png"
                         alt="com.abtinbidgoli ~ UX/UI Developer"
                         class="img-rounded"
                       />
                     </div>
                     <br />
-                    <h3>2018 Vaudoisey Creusefond Auxey Duresses</h3>
+                    <h3>
+                      2018 Chat Cheval des Andes
+                    </h3>
                     <p>
                       Producer:
                       <a
-                        href="http://www.vaudoisey-creusefond.fr/"
+                        href="https://www.chevaldesandes.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        >Domaine Vaudoisey-Creusefond, Cote de Beaune, Burgundy,
-                        France</a
-                      >
+                        >Cheval des Andes, Terrazas de Los Andes, Mendoza, Argentina
+                      </a>
                     </p>
                     <blockquote>
-                      "The nose of this wine evokes raspberry & red cherry
-                      alongside a distant cloud of smokiness. The palate is
-                      slender, but carries that red-fruited aromatic purity.
-                      Fine, almost subtle tannins weave a slight web while
-                      freshness reigns. It's a light but very evocative wine
-                      with a lovely echo of fullness, freshness & red fruit. The
-                      wine will also work slightly chilled." ~ 90 Points ~ Wine
-                      Enthusiast
+                      "The 2018 Cheval des Andes is a blend of 70% Malbec and 30% Cabernet Sauvignon fermented in small lots in 3,000- to 8,000-liter tanks and matured 40% in 225-liter oak barrels, 40% in 400-liter oak barrels and the remaining 20% in 2,500-liter oak vats for 13 months. Ninety percent of the oak used was French and the rest a blend of Austrian, Slovenian and German oak, 50% of it new. 2018 has been one of the best vintages in recent times in Mendoza, and the wine shows it. It's a cooler vintage, and the wine has improved in freshness and elegance without losing any clout. It's 14.5% alcohol and has a pH of 3.73. This is young, juicy, elegant and balanced and still has some herbal and toasted notes; it's medium to full-bodied, with the creamy and luxurious texture of the modern Bordeaux, ultra fine tannins and a long, dry and precise finish. It's still undeveloped and seems to have all the components and the balance between them for a long and positive development in bottle. With wines like this, I sometimes wish I had a time machine so I could see them in 20 years from now... I think this is the finest Cheval des Andes I've ever tasted. 100,000 bottles produced. It was bottled in January 2020."
+~ 98 Points ~ Luis Gutierrez ~ Robert Parker's Wine Advocate
                     </blockquote>
+                    
+                    <blockquote>
+                      "This is a plush, rich Cheval with blueberry and floral aromas and flavors. HInts of tar and fresh lavender. Full body. The depth and richness are impressive, as are the ripe yet fresh tannins. Very long and structured, yet controlled and in balance. This will be a great wine indeed. Release in September 2021. Drink after 2023."
 
+                      ~ 98 Points ~ James Suckling
+                    </blockquote>
+                    <blockquote>
+                      "The wine of Cheval des Andes combines the vibrant and intense expression of Argentinian Malbec with the rigour, elegance and savoir-faire of a great Bordeaux.
+
+It is a unique blend of Malbec grapes and Bordeaux varietals ~ an ensemble with the exuberance of Malbec balanced by the temperance of Cabernet Sauvignon, completed with hints of Petit Verdot.
+
+The vision of Cheval des Andes is to bring Château Cheval Blanc’s winemaking philosophy ~ which focusses on cellaring potential and elegance ~ to Argentina. Cheval des Andes makes wines that age gracefully and “travel through the decades,” according to Pierre Lurton, President of Château Cheval Blanc and Cheval des Andes.
+
+These wines are elegant, meaning they are the most refined expression of the terroir of Mendoza. On the nose, they are complex rather than intense and on the palate, they are balanced rather than powerful." ~ Cheval des Andes Winery
+                    </blockquote>
                     <div class="media">
                       <img
-                        src="img/dogsaw.jpg"
+                        src="img/ The Fault in Our Stars.jpg"
                         alt="com.abtinbidgoli ~ UX/UI Developer"
                         class="img-rounded"
                       />
                     </div>
                     <br />
-                    <h3>What the Dog Saw: And Other Adventures</h3>
+                    <h3>The Fault in Our Stars</h3>
                     <p>
                       <a
-                        href="http://libgen.rs/book/index.php?md5=A1D74DB2BCE662315386FF21969A1B7E"
+                        href="http://libgen.rs/book/index.php?md5=CC8E4EAAB090D91C8C665E0443209C1B"
                         target="_blank"
                         rel="noopener noreferrer"
-                        >By: Malcolm Gladwell
+                        >By: John Green
                       </a>
                     </p>
                     <blockquote>
-                      In this brilliant and provocative book, covering
-                      everything from criminology to ketchup, job interviews to
-                      dog training, <i>Malcolm Gladwell</i> shows how the most
-                      ordinary subjects can illuminate the most extraordinary
-                      things about us and our world.
+                      Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel’s story is about to be completely rewritten.
                     </blockquote>
                     <blockquote>
-                      Looking under the surface of the seemingly mundane, he
-                      explores the underdogs, the overlooked, the curious, the
-                      miraculous and the disastrous, and reveals how everyone
-                      and everything contains an incredible story.
+                      Insightful, bold, irreverent, and raw, The Fault in Our Stars is award-winning-author John Green’s most ambitious and heartbreaking work yet, brilliantly exploring the funny, thrilling, and tragic business of being alive and in love.                    
                     </blockquote>
-                    <blockquote>
-                      <i>What the Dog Saw</i> is Gladwell at his very best ~
-                      asking questions and finding surprising answers.
-                    </blockquote>
+                    
                   </div>
                 </div>
 
                 <div class="post-more">
-                  <a href="postFactors.html" class="more-link"> Recent Muse </a>
-                  <a href="postBoring.html" class="more-link"> Or Ponder </a>
+                  <a href="postCSS.html" class="more-link">
+                    Recent Muse
+                  </a>
+                  <a href="postVue.html" class="more-link">
+                    Next Pondering Publishes 2 November 2023
+                  </a>
                 </div>
               </div>
 
@@ -517,7 +389,9 @@
                   <div class="sidebar-widget">
                     <div class="categories-widget">
                       <div class="widget-header">
-                        <h4><i class="ion-ios-folder-outline"></i> Niches</h4>
+                        <h4>
+                          <i class="ion-ios-folder-outline"></i> Niches
+                        </h4>
                       </div>
 
                       <ul class="sidebar-list">
@@ -540,7 +414,7 @@
                         <li>
                           <a href="#">Technology</a>
                         </li>
-
+                        
                         <li>
                           <a href="#">Publication</a>
                         </li>
@@ -568,51 +442,58 @@
                         </a>
                       </li>
 
+                      
+
                       <li>
                         <a href="postWeb.html">
                           My First Impressions of Web3
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 15 minute read </span><br />&emsp;<span
-                            >~ Publishes 2 March 2024</span
+                          >~ Publishes 2 March 2024</span
                           >
                         </a>
                       </li>
+
                       <li>
                         <a href="postScalability.html">
                           The Limits to Blockchain Scalability
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 10 minute read </span><br />&emsp;<span
-                            >~ Publishes 2 February 2024</span
+                          >~ Publishes 2 February 2024</span
                           >
                         </a>
                       </li>
+                      
                       <li>
                         <a href="postCold.html">
                           Going Cold Turkey: Phone Addiction & Detox
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 7 minute read </span><br />&emsp;<span
-                            >~ Publishes 2 January 2024</span
+                          >~ Publishes 2 January 2024</span
                           >
                         </a>
                       </li>
+                      
                       <li>
                         <a href="postProcess.html">
                           5 Stages in the Design Thinking Process
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 6 minute read </span><br />&emsp;<span
-                            >~ Publishes 2 December 2023</span
+                          >~ Publishes 2 December 2023</span
                           >
                         </a>
                       </li>
+                      
                       <li>
                         <a href="postVue.html">
                           Technologies I’ve Decided To Focus On
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 7 minute read </span><br />&emsp;<span
-                            >~ Publishes 2 November 2023</span
+                          >~ Publishes 2 November 2023</span
                           >
                         </a>
                       </li>
+                      
                       <li>
                         <a href="postVitals.html">
                           Page Experience & Core Web Vitals
@@ -627,6 +508,8 @@
                           ><span> 6 minute read </span>
                         </a>
                       </li>
+                      
+                      
                       <li>
                         <a href="postDHTML.html">
                           1997: The Year of DHTML
@@ -634,6 +517,8 @@
                           ><span> 5 minute read </span>
                         </a>
                       </li>
+                      
+                      
                       <li>
                         <a href="postHours.html">
                           Calculating Hours, Client Factors
@@ -641,6 +526,7 @@
                           ><span> 5 minute read </span>
                         </a>
                       </li>
+                      
                       <li>
                         <a href="postIntentional.html">
                           Developing an Intentional Life
@@ -648,7 +534,7 @@
                           ><span> 7 minute read </span>
                         </a>
                       </li>
-
+                      
                       <li>
                         <a href="postInspirant.html">
                           Starting your Digital Transformation Journey
@@ -693,38 +579,30 @@
                       </li>
                       <li>
                         <a href="postPeace.html">
-                          Peace through Diplomacy during these Unprecedented
-                          Times
+                          Peace through Diplomacy during these Unprecedented Times
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 5 minute read </span>
                         </a>
                       </li>
                       <li>
                         <a href="postMental.html">
-                          Environ~<i>Mental</i> Mom: The Absence of Actively
-                          Listening <br />&emsp;<i
-                            class="ion-ios-lightbulb-outline"
-                          ></i
+                          Environ~<i>Mental</i> Mom: The Absence of Actively Listening
+                          <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 10 minute read </span>
                         </a>
                       </li>
                       <li>
                         <a href="postBreaking.html">
-                          <i>Breaking Points</i>: On Afghanistan, the Revolving
-                          Door, & Media Failure to Disclose Contracting Ties of
-                          Guests <br />&emsp;<i
-                            class="ion-ios-lightbulb-outline"
-                          ></i
+                          <i>Breaking Points</i>: On Afghanistan, the Revolving Door, & Media Failure to Disclose Contracting Ties of Guests
+                          <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 6 minute read </span>
                         </a>
                       </li>
-
+                      
                       <li>
                         <a href="postgetNud.html">
-                          Get <i>Nu'd</i>, Vaccine Success, Media Misery: Is
-                          Good News Taboo in the Trump Age? <br />&emsp;<i
-                            class="ion-ios-lightbulb-outline"
-                          ></i
+                          Get <i>Nu'd</i>, Vaccine Success, Media Misery: Is Good News Taboo in the Trump Age?
+                          <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
                           ><span> 8 minute read </span>
                         </a>
                       </li>
@@ -778,6 +656,14 @@
                       </li>
 
                       <li>
+                        <a href="postData.html">
+                          Data Is More than Numbers
+                          <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
+                          ><span> 7 minute read </span>
+                        </a>
+                      </li>
+
+                      <li>
                         <a href="postFactors.html">
                           Factors in UX Maturity
                           <br />&emsp;<i class="ion-ios-lightbulb-outline"></i
@@ -800,7 +686,7 @@
                           ><span> 5 minute read </span>
                         </a>
                       </li>
-
+                      
                       <li>
                         <a href="postHeadings.html">
                           Headings Are Pick-Up Lines
@@ -809,6 +695,7 @@
                         </a>
                       </li>
 
+                    <ul class="sidebar-list">
                       <li>
                         <a href="postSocialMedia.html">
                           Social Media UX: Research Insights
